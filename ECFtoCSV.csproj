@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>ASTIC/TC</Authors>
+    <Company>ASTIC/TC</Company>
+    <Copyright>ASTIC/TC Copyright © 2021</Copyright>
+    <PackageReleaseNotes>GNU General Public License v3.0</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="CsvHelper" Version="27.1.1" />
+  </ItemGroup>
+
+</Project>

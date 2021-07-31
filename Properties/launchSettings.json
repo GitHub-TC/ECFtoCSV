@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ECFtoCSV": {
+      "commandName": "Project",
+      "commandLineArgs": "--prefix eden_dialog --ecf-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues.ecf\" --ecf-out-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues-Test.ecf\" --csv-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues.csv\" --csv-out-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues-Test.csv\""
+    }
+  }
+}
