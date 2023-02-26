@@ -2,7 +2,7 @@
   "profiles": {
     "ECFtoCSV": {
       "commandName": "Project",
-      "commandLineArgs": "--prefix eden_dialog --ecf-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues.ecf\" --ecf-out-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues-Test.ecf\" --csv-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues.csv\" --csv-out-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Reforged Eden\\Content\\Configuration\\Dialogues-Test.csv\""
+      "commandLineArgs": "--prefix eden_dialog --ecf-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Giga RE2022 V1+\\Content\\Configuration\\Dialogues.ecf\" --ecf-out-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Giga RE2022 V1+\\Content\\Configuration\\Dialogues-Test.ecf\" --csv-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Giga RE2022 V1+\\Content\\Configuration\\Dialogues.csv\" --csv-out-file \"C:\\steamcmd\\empyrion.server\\Content\\Scenarios\\Giga RE2022 V1+\\Content\\Configuration\\Dialogues-Test.csv\""
     }
   }
 }

@@ -28,13 +28,17 @@ namespace ECFtoCSV
                     if (textStartPos > 0 && textEndPos > 0)
                     {
                         var text = ecfLines[i].Substring(textStartPos + 1, textEndPos - textStartPos - 1);
-                        var placeholder = (options.CsvPrefix ?? "txt_") + (currentDialogHash + text.GetHashCode()).ToString("X");
-                        var found = csvLines.FirstOrDefault(test => test[1] == text);
 
-                        if (found != null) placeholder = found[0];
-                        else               csvLines.Add(new List<string> { placeholder, text });
+                        if (csvLines.All(l => l.FirstOrDefault() != text))
+                        {
+                            var placeholder = (options.CsvPrefix ?? "txt_") + (currentDialogHash + text.GetHashCode()).ToString("X");
+                            var found = csvLines.FirstOrDefault(test => test[1] == text);
 
-                        ecfLines[i] = ecfLines[i].Substring(0, textStartPos) + placeholder;
+                            if (found != null) placeholder = found[0];
+                            else               csvLines.Add(new List<string> { placeholder, text });
+
+                            ecfLines[i] = ecfLines[i].Substring(0, textStartPos) + placeholder;
+                        }
                     }
                 }
             }
