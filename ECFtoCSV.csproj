@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Authors>ASTIC/TC</Authors>
     <Company>ASTIC/TC</Company>
     <Copyright>ASTIC/TC Copyright © 2021</Copyright>
