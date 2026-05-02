@@ -24,7 +24,7 @@ namespace ECFtoCSV
             do
             {
                 var newLine = new List<string>();
-                for (int i = 0; i < languages; i++) newLine.Add(csv.TryGetField(typeof(string), i, out var field) ? field?.ToString() : string.Empty);
+                for (int i = 0; i < languages; i++) newLine.Add(csv.TryGetField(typeof(string), i, out var field) ? field?.ToString() ?? string.Empty : string.Empty);
                 translations.Add(newLine);
             }
             while (csv.Read());

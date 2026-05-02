@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+
+    <sys:String x:Key="str_window_title">ECF → CSV Convertisseur  –  Outil de dialogue Empyrion</sys:String>
+    <sys:String x:Key="str_app_title">ECF → CSV Convertisseur</sys:String>
+    <sys:String x:Key="str_app_subtitle">Extrait les textes de dialogue des fichiers ECF Empyrion et les gère dans un fichier CSV de traduction.</sys:String>
+
+    <sys:String x:Key="str_ecf_group">Fichier ECF  (Fichier de configuration Empyrion)</sys:String>
+    <sys:String x:Key="str_csv_group">Fichier CSV de traduction</sys:String>
+    <sys:String x:Key="str_label_input">Entrée :</sys:String>
+    <sys:String x:Key="str_btn_browse">Parcourir …</sys:String>
+    <sys:String x:Key="str_rb_overwrite">Écraser le fichier d'entrée</sys:String>
+    <sys:String x:Key="str_rb_separate">Autre fichier de sortie :</sys:String>
+    <sys:String x:Key="str_label_prefix">Préfixe de clé :</sys:String>
+    <sys:String x:Key="str_btn_convert">▶   Lancer la conversion</sys:String>
+    <sys:String x:Key="str_group_log">Journal</sys:String>
+
+    <sys:String x:Key="str_tt_ecf_input">Chemin du fichier ECF à traiter (obligatoire)</sys:String>
+    <sys:String x:Key="str_tt_ecf_browse">Sélectionner le fichier ECF source</sys:String>
+    <sys:String x:Key="str_tt_rb_overwrite_ecf">Le fichier d'entrée sera directement écrasé par le résultat</sys:String>
+    <sys:String x:Key="str_tt_rb_separate_ecf">Le résultat sera écrit dans un fichier séparé</sys:String>
+    <sys:String x:Key="str_tt_ecf_output">Chemin du fichier ECF de sortie</sys:String>
+    <sys:String x:Key="str_tt_ecf_output_browse">Choisir l'emplacement du fichier ECF de sortie</sys:String>
+    <sys:String x:Key="str_tt_csv_input">Chemin du fichier CSV (obligatoire) – sera créé s'il n'existe pas encore</sys:String>
+    <sys:String x:Key="str_tt_csv_browse">Sélectionner le fichier CSV (créé automatiquement s'il n'existe pas)</sys:String>
+    <sys:String x:Key="str_tt_rb_overwrite_csv">Le fichier CSV sera directement mis à jour avec de nouvelles entrées</sys:String>
+    <sys:String x:Key="str_tt_rb_separate_csv">Le résultat sera écrit dans un fichier CSV séparé</sys:String>
+    <sys:String x:Key="str_tt_csv_output">Chemin du fichier CSV de sortie</sys:String>
+    <sys:String x:Key="str_tt_csv_output_browse">Choisir l'emplacement du fichier CSV de sortie</sys:String>
+    <sys:String x:Key="str_tt_prefix">Ce préfixe est ajouté aux nouvelles entrées – ex. 'txt_' donne 'txt_1A2B3C4D'</sys:String>
+    <sys:String x:Key="str_tt_btn_convert">Traiter le fichier ECF et mettre à jour le fichier CSV</sys:String>
+
+    <sys:String x:Key="str_placeholder">(= fichier d'entrée)</sys:String>
+    <sys:String x:Key="str_log_starting">⏳ Démarrage de la conversion …</sys:String>
+    <sys:String x:Key="str_log_ecf_in">   ECF entrée:  </sys:String>
+    <sys:String x:Key="str_log_ecf_out">   ECF sortie:  </sys:String>
+    <sys:String x:Key="str_log_csv_in">   CSV entrée:  </sys:String>
+    <sys:String x:Key="str_log_csv_out">   CSV sortie:  </sys:String>
+    <sys:String x:Key="str_log_prefix">   Préfixe:     </sys:String>
+    <sys:String x:Key="str_log_done_fmt">✅ Terminé !  {0} nouvelle(s) entrée(s) ajoutée(s) · {1} entrée(s) au total dans le CSV.</sys:String>
+
+    <sys:String x:Key="str_err_no_ecf_input">❌ Erreur : Veuillez sélectionner un fichier ECF d'entrée.</sys:String>
+    <sys:String x:Key="str_err_ecf_not_found">❌ Erreur : Fichier ECF introuvable :</sys:String>
+    <sys:String x:Key="str_err_no_csv">❌ Erreur : Veuillez indiquer un fichier CSV.</sys:String>
+    <sys:String x:Key="str_err_no_ecf_out">❌ Erreur : Veuillez indiquer un fichier ECF de sortie.</sys:String>
+    <sys:String x:Key="str_err_no_csv_out">❌ Erreur : Veuillez indiquer un fichier CSV de sortie.</sys:String>
+    <sys:String x:Key="str_err_generic">❌ Erreur :</sys:String>
+
+    <sys:String x:Key="str_dlg_ecf_input">Sélectionner le fichier ECF</sys:String>
+    <sys:String x:Key="str_dlg_ecf_output">Choisir le fichier ECF de sortie</sys:String>
+    <sys:String x:Key="str_dlg_csv_input">Sélectionner le fichier CSV</sys:String>
+    <sys:String x:Key="str_dlg_csv_output">Choisir le fichier CSV de sortie</sys:String>
+    <sys:String x:Key="str_filter_ecf">Fichiers ECF|*.ecf|Tous les fichiers|*.*</sys:String>
+    <sys:String x:Key="str_filter_csv">Fichiers CSV|*.csv|Tous les fichiers|*.*</sys:String>
+
+</ResourceDictionary>
