@@ -61,24 +61,16 @@ Wird das Tool erneut auf einer bereits teilweise verarbeiteten ECF-Datei ausgef�
 
 ---
 
-## Voraussetzungen
+## Installation
 
-| Anforderung | Version |
-|-------------|---------|
-| Windows | 10 / 11 |
-| .NET Runtime | **nicht nötig** – die `publish\ECFtoCSV.exe` ist selbst-enthalten |
+1. Im **Releases**-Reiter dieser Seite die neueste Version öffnen.
+2. Die Datei **`ECFtoCSV.zip`** herunterladen.
+3. Das Archiv in einen beliebigen Ordner entpacken.
+4. **`ECFtoCSV.exe`** starten – fertig.
+
+Eine .NET-Installation ist **nicht erforderlich**, das Programm bringt alles Nötige mit.
 
 ---
-
-## Starten
-
-Einfach die fertig kompilierte Datei ausführen:
-
-```
-publish\ECFtoCSV.exe
-```
-
-Beim ersten Start sind keine Einstellungen nötig – alle Pfade und Optionen werden über die Oberfläche ausgewählt. Die Einstellungen werden automatisch gespeichert und beim nächsten Start wiederhergestellt.
 
 ---
 

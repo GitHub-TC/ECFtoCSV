@@ -59,24 +59,16 @@ Si l'outil est relancé sur un fichier ECF déjà partiellement traité, il reco
 
 ---
 
-## Prérequis
+## Installation
 
-| Prérequis | Version |
-|-----------|---------|
-| Windows | 10 / 11 |
-| Runtime .NET | **non requis** – `publish\ECFtoCSV.exe` est autonome |
+1. Ouvrir l'onglet **Releases** de cette page et trouver la dernière version.
+2. Télécharger **`ECFtoCSV.zip`**.
+3. Extraire l'archive dans le dossier de votre choix.
+4. Lancer **`ECFtoCSV.exe`** – c'est tout.
+
+Aucune installation de .NET n'est **requise** – le programme est entièrement autonome.
 
 ---
-
-## Lancer l'outil
-
-Il suffit d'exécuter l'exécutable précompilé :
-
-```
-publish\ECFtoCSV.exe
-```
-
-Aucune configuration n'est nécessaire au premier lancement – tous les chemins et options sont sélectionnés via l'interface. Les paramètres sont sauvegardés automatiquement et restaurés au prochain démarrage.
 
 ---
 
