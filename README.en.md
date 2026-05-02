@@ -4,13 +4,31 @@ A Windows desktop tool for extracting dialogue texts from **Empyrion Galactic Su
 
 ---
 
+## Installation
+
+1. Open the **Releases** tab on this page and find the latest version.
+2. Download **`ECFtoCSV.zip`**.
+3. Extract the archive to any folder.
+4. Run **`ECFtoCSV.exe`** – that's it.
+
+A .NET installation is **not required** – the program is fully self-contained.
+
+---
+
 ## What is this for?
 
-Empyrion mods contain configuration files (`.ecf`) in which dialogue texts, trader labels and other in-game strings are embedded as plain text, for example:
+Empyrion mods contain configuration files (`.ecf`) in which dialogue texts, trader labels and other in-game strings are embedded as plain text.  
+These files are located in the **scenario directory** of the mod – for Steam Workshop installations typically at:
 
 ```
-C:\GAMES\Steam\steamapps\workshop\content\383120\3143225812\Content\Configuration\TokenConfig.ecf
-C:\GAMES\Steam\steamapps\workshop\content\383120\3143225812\Content\Configuration\TraderNPCConfig.ecf
+C:\GAMES\Steam\steamapps\workshop\content\383120\<ScenarioID>\Content\Configuration\TokenConfig.ecf
+C:\GAMES\Steam\steamapps\workshop\content\383120\<ScenarioID>\Content\Configuration\TraderNPCConfig.ecf
+```
+
+On **Empyrion servers** the scenario directory is usually located directly inside the Empyrion installation folder, e.g.:
+
+```
+<EmpyrionServer>\Saves\Games\<ScenarioName>\Mods\<ModName>\Content\Configuration\
 ```
 
 To translate these texts into other languages, they first need to be **extracted from the ECF files** and replaced with unique keys.  
@@ -56,19 +74,6 @@ TranslateCSV adds additional language columns to the CSV without modifying the e
 ### Step 3 – Repeated execution
 
 If the tool is run again on an ECF file that has already been partially processed, it recognises existing keys and skips them. Only **newly added texts** are appended to the CSV.
-
----
-
-## Installation
-
-1. Open the **Releases** tab on this page and find the latest version.
-2. Download **`ECFtoCSV.zip`**.
-3. Extract the archive to any folder.
-4. Run **`ECFtoCSV.exe`** – that's it.
-
-A .NET installation is **not required** – the program is fully self-contained.
-
----
 
 ---
 

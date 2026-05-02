@@ -6,13 +6,31 @@ Ein Windows-Desktop-Tool zum Extrahieren von Dialogtexten aus **Empyrion Galacti
 
 ---
 
+## Installation
+
+1. Im **Releases**-Reiter dieser Seite die neueste Version öffnen.
+2. Die Datei **`ECFtoCSV.zip`** herunterladen.
+3. Das Archiv in einen beliebigen Ordner entpacken.
+4. **`ECFtoCSV.exe`** starten – fertig.
+
+Eine .NET-Installation ist **nicht erforderlich**, das Programm bringt alles Nötige mit.
+
+---
+
 ## Wozu brauche ich das?
 
-Empyrion-Mods enthalten Konfigurationsdateien (`.ecf`), in denen Dialogtexte, Händler-Beschriftungen und andere Spieltexte direkt als Klartext eingebettet sind, zum Beispiel:
+Empyrion-Mods enthalten Konfigurationsdateien (`.ecf`), in denen Dialogtexte, Händler-Beschriftungen und andere Spieltexte direkt als Klartext eingebettet sind.  
+Die Dateien befinden sich im **Szenarioverzeichnis** des Mods – bei Steam-Workshop-Installationen typischerweise unter:
 
 ```
-C:\GAMES\Steam\steamapps\workshop\content\383120\3143225812\Content\Configuration\TokenConfig.ecf
-C:\GAMES\Steam\steamapps\workshop\content\383120\3143225812\Content\Configuration\TraderNPCConfig.ecf
+C:\GAMES\Steam\steamapps\workshop\content\383120\<SzenarioID>\Content\Configuration\TokenConfig.ecf
+C:\GAMES\Steam\steamapps\workshop\content\383120\<SzenarioID>\Content\Configuration\TraderNPCConfig.ecf
+```
+
+Auf **Empyrion-Servern** liegt das Szenarioverzeichnis in der Regel direkt im Empyrion-Installationsordner, z. B.:
+
+```
+<EmpyrionServer>\Saves\Games\<SzenarioName>\Mods\<ModName>\Content\Configuration\
 ```
 
 Um diese Texte in andere Sprachen übersetzen zu können, müssen sie zunächst **aus den ECF-Dateien herausgezogen** und durch eindeutige Schlüssel ersetzt werden.  
@@ -58,19 +76,6 @@ TranslateCSV ergänzt die CSV-Datei um weitere Sprachspalten, ohne die vorhanden
 ### Schritt 3 – Wiederholte Ausführung
 
 Wird das Tool erneut auf einer bereits teilweise verarbeiteten ECF-Datei ausgeführt, erkennt es bereits vorhandene Schlüssel und überspringt diese. Nur **neu hinzugekommene Texte** werden der CSV hinzugefügt.
-
----
-
-## Installation
-
-1. Im **Releases**-Reiter dieser Seite die neueste Version öffnen.
-2. Die Datei **`ECFtoCSV.zip`** herunterladen.
-3. Das Archiv in einen beliebigen Ordner entpacken.
-4. **`ECFtoCSV.exe`** starten – fertig.
-
-Eine .NET-Installation ist **nicht erforderlich**, das Programm bringt alles Nötige mit.
-
----
 
 ---
 
