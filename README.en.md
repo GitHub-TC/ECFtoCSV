@@ -1,4 +1,4 @@
-# ECF → CSV Converter
+# ECF → CSV Converter ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 
 A Windows desktop tool for extracting dialogue texts from **Empyrion Galactic Survival** mod files into a CSV translation file.
 

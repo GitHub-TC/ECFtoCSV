@@ -1,4 +1,4 @@
-# ECF → CSV Konverter
+# ECF → CSV Konverter ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 
 🌐 [English](README.en.md) · [Français](README.fr.md)
 
